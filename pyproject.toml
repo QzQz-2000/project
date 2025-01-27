@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "elaticsearch"
+version = "0.1.0"
+description = ""
+authors = ["QzQz-2000 <18822153516@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+elasticsearch = "^8.17.0"
+pyyaml = "^6.0.2"
+tenacity = "^9.0.0"
+python-slugify = "^8.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
